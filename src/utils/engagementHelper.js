@@ -88,7 +88,7 @@ const engagementHelper = {
         formatter: function () {
           return (
             `<b>${this.series.name}</b><br/>` +
-            `${this.y} message on ${Highcharts.dateFormat("%Y-%m-%d", this.x)}`
+            `${this.y} messages on ${Highcharts.dateFormat("%d %b", this.x)}`
           );
         },
       },
